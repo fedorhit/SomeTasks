@@ -1,0 +1,17 @@
+
+
+
+
+Class S(Q):
+	Q1,Q2 = Q()
+	
+	def putstack:
+		put(Q1)
+		while Q2!=0:
+			get(Q2)
+			put(Q1)
+		while Q1!=0:
+			get(Q1)
+			put(Q2)
+	def getstack:
+		get(Q2)
